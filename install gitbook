@@ -1,0 +1,20 @@
+gitbook depend on npm.
+npm can not touch in China.
+So, in china , gitbook install steps like this:
+
+1 install node
+     
+2 install cnpm
+   how to install cnpm ?
+   <1>open cmd, using administrator.
+   <2>run this statement: npm install -g cnpm --registry=https://registry.npm.taobao.org
+   
+3 install gitbook-cli
+    how to install ?
+    <1>go to a place that you can sucess ping 114.55.80.225.
+    <2>run this： cnpm install -g gitbook-cli
+      
+4 install gitbook
+     run this: gitbook -v
+     
+It's all. :>
